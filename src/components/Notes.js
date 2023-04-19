@@ -80,6 +80,7 @@ const Notes = () => {
                                     <label htmlFor='etag' className='form-label'>Tag</label>
                                     <select value={Note.etag} class="form-select" id='etag' aria-label="Default select example" name='etag' onChange={onChange}>
                                         <option selected>General</option>
+                                        <option value="Education">Education</option>
                                         <option value="Sports">Sports</option>
                                         <option value="Entertainment">Entertainment</option>
                                         <option value="Technology">Technology</option>

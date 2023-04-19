@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import Swal from 'sweetalert2';
 import noteContext from '../context/notes/noteContext';
 import Alert from './Alert';
+import '../CSS/AddNotes.css'
 const AddNotes = () => {
     const notes = useContext(noteContext);
     const { Notes, addNote } = notes;
@@ -51,19 +52,20 @@ const AddNotes = () => {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="description" className="form-label">Description</label>
-                        <input type="text" className="form-control" value={Note.description} id="description" name='description' onChange={onChange} minLength={10} required />
+                        <textarea type="text" className="form-control" value={Note.description} id="description" name='description' onChange={onChange} minLength={10} required />
                     </div>
                     <div className="mb-5">
                         <label htmlFor='tag' className='form-label'>Tag</label>
                         <select class="form-select" id='tag' value={Note.tag} aria-label="Default select example" name='tag' onChange={onChange}>
                             <option selected>General</option>
                             <option value="Sports">Sports</option>
+                            <option value="Education">Education</option>
                             <option value="Entertainment">Entertainment</option>
                             <option value="Technology">Technology</option>
                             <option value="Personal">Personal</option>
                         </select>
                     </div>
-                    <button disabled={Note.title.length < 5 || Note.description.length < 10} onClick={handleAddNotes} type="submit" className="btn btn-primary">Add Note</button>
+                    <button disabled={Note.title.length < 5 || Note.description.length < 10} onClick={handleAddNotes} type="submit" className="btn btn-primary addNoteClass">Add Note</button>
                 </form>
             </div>
 

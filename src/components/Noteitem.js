@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
 import noteContext from '../context/notes/noteContext'
+import '../CSS/Noteitem.css'
 const Noteitem = (props) => {
     const context = useContext(noteContext);
     const { deleteNote } = context;
     const { note, updateNote } = props;
     return (
-        <div className="col-sm-4 mb-3 mb-sm-0 my-5">
-            <div className="card">
+        <div className="col-sm-4 mb-3 mb-sm-0 my-5 ">
+            <div className="card NoteitemCss">
                 <div className="card-body">
                     <div className="d-flex justify-content-between">
                         <h5 className="card-title text-center">{note.title}</h5>

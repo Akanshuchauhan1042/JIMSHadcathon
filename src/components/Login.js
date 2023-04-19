@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Alert from './Alert';
+import '../CSS/Login.css'
 
 let username = null;
 
@@ -54,10 +55,10 @@ function Login() {
                         <span className="fas fa-key"></span>
                         <input type="password" value={Credentials.Password} name="Password" id="password" placeholder="Password" onChange={onChange} required />
                     </div>
-                    <button type='submit' className="btn mt-3">Login</button>
+                    <button type='submit' className="btn loginButton mt-3">Login</button>
                 </form>
                 <div className="text-center fs-6">
-                    <p className='text-center'>if you don't have a account then</p><Link to="/signup" style={{ fontSize: '15px' }}>Sign up</Link>
+                    <p className='text-center '>if you don't have a account then</p><Link to="/signup" className='signUpFunction' style={{ fontSize: '15px' }}>Sign up</Link>
                 </div>
             </div>
         </>

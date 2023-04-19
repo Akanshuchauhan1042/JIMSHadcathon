@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 import { handleExportUsername } from './Login'
-
+import '../CSS/Navbar.css'
 
 function Navbar(props) {
     let location = useLocation();
@@ -38,7 +38,7 @@ function Navbar(props) {
                     {!localStorage.getItem('token') ? <form action="" className="d-flex">
                         <Link className="btn btn-primary" to='/login'>Login</Link>
                         <Link className="btn btn-primary mx-3" to='/signup'>Sign Up</Link>
-                    </form> : <button onClick={handleLogoutFunction} className='btn btn-primary'>Logout</button>
+                    </form> : <button onClick={handleLogoutFunction} className='btn btn-primary blackClass'>Logout</button>
                     }
                 </div>
             </div>

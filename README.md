@@ -76,14 +76,14 @@ npm run both
 ## Glimpses of the Given Application
 ### Login Form
 
-![image](https://user-images.githubusercontent.com/75381077/225827555-675ff7c7-0277-4949-a623-f5b5cdc46920.png)
+![image](https://user-images.githubusercontent.com/75381077/233029216-5ba9d4bb-d15a-410b-be3b-45b8e2cde156.png)
 
 ### SignUp Form
 
-![image](https://user-images.githubusercontent.com/75381077/225827886-ce1a9c4c-544a-4d28-ab27-6149e0ad8e6b.png)
+![image](https://user-images.githubusercontent.com/75381077/233031164-271736c2-e6e1-45ea-88d0-fb131ea6afbf.png)
 
 ### InoteBook Adding Note Section
 
-![image](https://user-images.githubusercontent.com/75381077/225828350-582eae59-7d69-4b34-b628-86ff01cfc060.png)
+![image](https://user-images.githubusercontent.com/75381077/233030726-134bfdb8-c0f7-4ace-bcdd-1065b0d7df4c.png)
 
-![image](https://user-images.githubusercontent.com/75381077/225828704-7e1ce84a-bb96-4dc2-9ec7-427f3bb0b354.png)
+![image](https://user-images.githubusercontent.com/75381077/233030958-473eb4f0-46ec-4f86-82a1-7f4af0addf02.png)

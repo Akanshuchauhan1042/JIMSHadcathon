@@ -67,6 +67,7 @@ const AddNotes = () => {
                     </div>
                     <button disabled={Note.title.length < 5 || Note.description.length < 10} onClick={handleAddNotes} type="submit" className="btn btn-primary addNoteClass">Add Note</button>
                 </form>
+                
             </div>
 
         </div>
